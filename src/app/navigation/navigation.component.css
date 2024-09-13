@@ -1,0 +1,28 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  background-color: rgb(200, 197, 197); /* Default background color */
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: rgb(244, 122, 122);
+}
+
+li.active {
+  background-color: rgb(192, 212, 249); /* Background color when active */
+  color: white;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 1.2em;
+}
